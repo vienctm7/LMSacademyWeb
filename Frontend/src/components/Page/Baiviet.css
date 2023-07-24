@@ -1,0 +1,415 @@
+.ant-layout {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    min-height: 0;
+    background: #fff;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+.ant-layout-content {
+    margin-top: 50px;
+}
+
+.ant-layout-content {
+    flex: auto;
+    min-height: 0;
+}
+.rikkei_list_posts {
+    padding: 20px 10%;
+}
+.breadcrumb_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.breadcrumb_wrap .woocommerce_breadcrumb {
+    display: flex;
+    align-items: center;
+}
+.breadcrumb_wrap .filter-search .input-holder {
+    height: 50px;
+    width: 400px;
+    overflow: hidden;
+    background: hsla(0,0%,100%,0);
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid #4b5563;
+    padding: 5px 10px;
+}
+input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+.breadcrumb_wrap .filter-search .input-holder .search-input {
+    width: 100%;
+    height: 100%;
+    padding: 0 70px 0 20px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.breadcrumb_wrap .filter-search .input-holder .search-icon {
+    width: 40px;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    background: #bb2327;
+    color: #fff;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    float: right;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rikkei_list_posts .list_post_content {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap: 40px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view {
+    grid-column: span 2/span 2;
+}
+main, article{
+    display: block;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_thumbnail {
+    margin-bottom: 20px;
+    position: relative;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_thumbnail img {
+    height: auto;
+    width: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_meta {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #999;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.6666666667;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_title {
+    margin: 10px 0;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_meta .posted_on {
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_meta .posted_author {
+    font-size: 12px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_title {
+    margin: 10px 0;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_title span {
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 1.2857142857;
+    font-weight: 600;
+    color: #000;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content p {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .category_link {
+    border: none;
+    background: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .read_more {
+    border: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .category_link span {
+    font-size: 12px;
+    margin-right: 5px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .category_link a {
+    font-size: 12px;
+    cursor: pointer;
+    color: #bb2327;
+}
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .read_more {
+    border: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .read_more span {
+    cursor: pointer;
+    font-size: 12px;
+    color: #bb2327;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article {
+    margin-bottom: 60px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_thumbnail {
+    margin-bottom: 20px;
+    position: relative;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_thumbnail img {
+    height: auto;
+    width: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_meta {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #999;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.6666666667;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_title {
+    margin: 10px 0;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_meta .posted_on {
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_meta .posted_author {
+    font-size: 12px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_header .entry_title span {
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 1.2857142857;
+    font-weight: 600;
+    color: #000;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content p {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .category_link {
+    border: none;
+    background: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .category_link span {
+    font-size: 12px;
+    margin-right: 5px;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .category_link a {
+    font-size: 12px;
+    cursor: pointer;
+    color: #bb2327;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .read_more {
+    border: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .read_more {
+    border: none;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+}
+.rikkei_list_posts .list_post_content .list_post_grid_view main article .post_inner .post_content .entry_content div .read_more span {
+    cursor: pointer;
+    font-size: 12px;
+    color: #bb2327;
+}
+
+.rikkei_list_posts .suggess_content, .rikkei_single_posts .suggess_content {
+    grid-column: span 1 / span 1;
+    height: 100%;
+    position: sticky;
+    top: 0px;
+}
+.rikkei_list_posts .suggess_content .sticky, .rikkei_single_posts .suggess_content .sticky {
+    position: sticky;
+    top: 8%;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts, .rikkei_single_posts .suggess_content .sticky .popular_posts {
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .popular_title, .rikkei_single_posts .suggess_content .sticky .popular_posts .popular_title {
+    padding: 10px 25px;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .popular_title h2, .rikkei_single_posts .suggess_content .sticky .popular_posts .popular_title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(153, 153, 153);
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts {
+    padding: 0px 25px;
+}
+.rikkei_list_posts .suggess_content, .rikkei_single_posts .suggess_content {
+    grid-column: span 1/span 1;
+    height: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.rikkei_list_posts .suggess_content .sticky, .rikkei_single_posts .suggess_content .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8%;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts, .rikkei_single_posts .suggess_content .sticky .popular_posts {
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -2px rgba(0,0,0,.1);
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .popular_title, .rikkei_single_posts .suggess_content .sticky .popular_posts .popular_title {
+    padding: 10px 25px;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .popular_title h2, .rikkei_single_posts .suggess_content .sticky .popular_posts .popular_title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts {
+    padding: 0 25px;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    padding-bottom: 25px;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts img, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    object-position: center;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_title, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_title {
+    -webkit-line-clamp: 2;
+}
+
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_title, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    transition: all .3s;
+    font-weight: 600;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_des, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_des {
+    margin-bottom: 0;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_des, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_des {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_info, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_info {
+    display: flex;
+    align-items: center;
+    margin-left: -45px;
+}
+.rikkei_list_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_info div, .rikkei_single_posts .suggess_content .sticky .popular_posts .list_posts .posts .posts_details .posts_info div {
+    font-weight: 500;
+    margin-top: 2px;
+    
+}
